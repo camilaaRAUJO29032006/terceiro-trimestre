@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Estilo para o formulário */
+  form {
+    max-width: 300px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+  }
+
+  /* Estilo para os campos de entrada de texto */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Estilo para os rótulos */
+  label {
+    display: block; /* Coloca cada rótulo em uma nova linha */
+    font-weight: bold;
+  }
+
+  /* Estilo para o botão de envio */
+  input[type="submit"] {
+    background-color: #34db3c;
+    color: rgb(119, 63, 133);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Estilo de foco para os campos de entrada */
+  input[type="text"]:focus {
+    border: 1px solid #3498db;
+    box-shadow: 0 0 5px #db3434;
+  }
+</style>
+</head>
+<body>
+
+<form>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" placeholder="Digite seu email">
+
+  <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
+
